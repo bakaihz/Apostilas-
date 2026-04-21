@@ -194,76 +194,67 @@ export default function App() {
               initial={{ opacity: 0, scale: 0.9, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: 20 }}
-              className="relative w-full max-w-md bg-[#0f172a] border border-white/10 rounded-[2.5rem] overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)] flex flex-col"
+              className="relative w-full max-w-xs bg-[#0f172a] border border-white/10 rounded-[2rem] overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)] flex flex-col"
             >
               {/* Modal Header */}
-              <div className="p-6 pb-4 flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-blue-600/20 flex items-center justify-center text-blue-400">
-                    <FileText size={20} />
+              <div className="p-5 pb-3 flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 rounded-full bg-blue-600/20 flex items-center justify-center text-blue-400">
+                    <FileText size={16} />
                   </div>
                   <div>
-                    <h2 className="text-lg font-bold leading-tight">{selectedApostila.year}</h2>
-                    <p className="text-[10px] text-white/40 uppercase tracking-widest font-bold">Apostila Digital</p>
+                    <h2 className="text-base font-bold leading-tight">{selectedApostila.year}</h2>
                   </div>
                 </div>
                 <button
                   onClick={() => setSelectedApostila(null)}
-                  className="p-2 hover:bg-white/10 rounded-full transition-colors text-white/40 hover:text-white"
+                  className="p-1.5 hover:bg-white/10 rounded-full transition-colors text-white/40 hover:text-white"
                 >
-                  <X size={20} />
+                  <X size={18} />
                 </button>
               </div>
 
               {/* Subject Info */}
-              <div className="px-6 mb-4">
-                <div className="p-4 rounded-2xl bg-black/40 border border-white/5">
-                  <p className="text-sm font-medium text-blue-100/80 leading-relaxed">
+              <div className="px-5 mb-3">
+                <div className="p-3 rounded-xl bg-black/40 border border-white/5">
+                  <p className="text-xs font-medium text-blue-100/80 leading-snug">
                     {selectedApostila.subjects}
                   </p>
                 </div>
               </div>
 
-              {/* Smaller PDF Preview Area */}
-              <div className="px-6 mb-6">
-                <div className="h-48 w-full bg-black rounded-2xl overflow-hidden border border-white/10 relative group">
+              {/* Even Smaller PDF Preview Area */}
+              <div className="px-5 mb-5">
+                <div className="h-32 w-full bg-black rounded-xl overflow-hidden border border-white/10 relative group">
                   <iframe
                     src={`${selectedApostila.url}#toolbar=0&navpanes=0`}
-                    className="w-full h-full border-none opacity-60 group-hover:opacity-100 transition-opacity"
+                    className="w-full h-full border-none opacity-40 group-hover:opacity-100 transition-opacity"
                     title="PDF Preview"
                   />
-                  <div className="absolute inset-0 pointer-events-none flex items-center justify-center bg-gradient-to-t from-[#0f172a] to-transparent opacity-40" />
-                  <div className="absolute bottom-3 left-1/2 -translate-x-1/2 text-[9px] font-bold text-white/20 uppercase tracking-tighter">
-                    Prévia da Matéria
-                  </div>
+                  <div className="absolute inset-0 pointer-events-none flex items-center justify-center bg-gradient-to-t from-[#0f172a] to-transparent opacity-30" />
                 </div>
               </div>
 
-              {/* Big Download Button in Modal */}
-              <div className="px-6 pb-8">
+              {/* Download Button in Modal */}
+              <div className="px-5 pb-6">
                 <a
                   href={selectedApostila.url}
                   download
-                  className="w-full flex flex-col items-center justify-center gap-1 py-5 rounded-3xl bg-blue-600 hover:bg-blue-500 text-white transition-all hover:shadow-[0_0_30px_rgba(37,99,235,0.4)] active:scale-95 group"
+                  className="w-full flex items-center justify-center gap-2 py-4 rounded-2xl bg-blue-600 hover:bg-blue-500 text-white transition-all hover:shadow-[0_0_20px_rgba(37,99,235,0.3)] active:scale-95 group"
                 >
-                  <div className="flex items-center gap-3">
-                    <Download size={24} strokeWidth={3} className="group-hover:animate-bounce" />
-                    <span className="font-black text-xl tracking-tight">BAIXAR AGORA</span>
-                  </div>
-                  <span className="text-[10px] font-bold text-blue-200/60 uppercase tracking-widest">
-                    Arquivo PDF • Seguro
-                  </span>
+                  <Download size={20} strokeWidth={3} className="group-hover:animate-bounce" />
+                  <span className="font-black text-sm tracking-tight">BAIXAR AGORA</span>
                 </a>
                 
-                <div className="mt-4 flex justify-center">
+                <div className="mt-3 flex justify-center">
                   <a
                     href={selectedApostila.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[10px] font-bold text-white/20 hover:text-blue-400 transition-colors flex items-center gap-1 uppercase tracking-widest"
+                    className="text-[9px] font-bold text-white/20 hover:text-blue-400 transition-colors flex items-center gap-1 uppercase tracking-widest"
                   >
-                    <ExternalLink size={12} />
-                    Abrir em tela cheia
+                    <ExternalLink size={10} />
+                    Link Direto
                   </a>
                 </div>
               </div>
@@ -290,7 +281,7 @@ export default function App() {
               <span className="font-bold tracking-tight">Entre no nosso Discord</span>
             </div>
             <a
-              href="https://discord.gg/F5eGQwwrA"
+              href="https://discord.gg/GguBjXyet"
               target="_blank"
               rel="noopener noreferrer"
               className="px-12 py-4 rounded-2xl bg-[#5865F2] hover:bg-[#4752C4] text-white font-black transition-all flex items-center gap-3 shadow-[0_0_30px_rgba(88,101,242,0.3)] group"
