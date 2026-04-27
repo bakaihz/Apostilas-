@@ -26,28 +26,50 @@ interface Apostila {
 
 const APOSTILAS: Apostila[] = [
   // 6º Ano
-  { id: '6-lp-mat', year: '6º Ano', subjects: 'Língua Portuguesa & Matemática', url: 'https://r2.cupiditys.lol/v1-6ano-lingua-portuguesa-matematica.pdf', category: 'Fundamental' },
-  { id: '6-others', year: '6º Ano', subjects: 'Ciências, História, Geografia, Inglês & Projeto de Vida', url: 'https://r2.cupiditys.lol/v1-6ano-ciencias-historia-geografia-lingua-inglesa-projeto-de-vida.pdf', category: 'Fundamental' },
+  { id: '6-lp-mat-v1', year: '6º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-6ano-lingua-portuguesa-matematica.pdf', category: 'Fundamental' },
+  { id: '6-lp-mat-v2', year: '6º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/6ano/matematicaportugues6anovol2.pdf', category: 'Fundamental' },
+  { id: '6-others-v1', year: '6º Ano', subjects: 'Ciências, História, Geografia, Inglês & Projeto de Vida (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-6ano-ciencias-historia-geografia-lingua-inglesa-projeto-de-vida.pdf', category: 'Fundamental' },
+  { id: '6-others-v2', year: '6º Ano', subjects: 'Ciências, História, Geografia, Inglês & Projeto de Vida (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/6ano/histciefeoinglprojeto6anovol2.pdf', category: 'Fundamental' },
+  
   // 7º Ano
-  { id: '7-lp-mat', year: '7º Ano', subjects: 'Língua Portuguesa & Matemática', url: 'https://r2.cupiditys.lol/v1-7ano-lingua-portuguesa-matematica.pdf', category: 'Fundamental' },
-  { id: '7-others', year: '7º Ano', subjects: 'Ciências, História, Geografia, Inglês & Projeto de Vida', url: 'https://r2.cupiditys.lol/v1-7ano-ciencias-historia-geografia-lingua-inglesa-projeto-de-vida.pdf', category: 'Fundamental' },
+  { id: '7-lp-mat-v1', year: '7º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-7ano-lingua-portuguesa-matematica.pdf', category: 'Fundamental' },
+  { id: '7-lp-mat-v2', year: '7º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/7ano/matematicaportugues7anovol2.pdf', category: 'Fundamental' },
+  { id: '7-others-v1', year: '7º Ano', subjects: 'Ciências, História, Geografia, Inglês & Projeto de Vida (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-7ano-ciencias-historia-geografia-lingua-inglesa-projeto-de-vida.pdf', category: 'Fundamental' },
+  { id: '7-others-v2', year: '7º Ano', subjects: 'Ciências, História, Geografia, Inglês & Projeto de Vida (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/7ano/histciengeoinglprojeto7anovol2.pdf', category: 'Fundamental' },
+  
   // 8º Ano
-  { id: '8-lp-mat', year: '8º Ano', subjects: 'Língua Portuguesa & Matemática', url: 'https://r2.cupiditys.lol/v1-8ano-lingua-portuguesa-matematica.pdf', category: 'Fundamental' },
-  { id: '8-others', year: '8º Ano', subjects: 'Ciências, História, Geografia, Inglês & Projeto de Vida', url: 'https://r2.cupiditys.lol/v1-8ano-ciencias-historia-geografia-lingua-inglesa-projeto-de-vida.pdf', category: 'Fundamental' },
+  { id: '8-lp-mat-v1', year: '8º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-8ano-lingua-portuguesa-matematica.pdf', category: 'Fundamental' },
+  { id: '8-lp-mat-v2', year: '8º Ano', subjects: 'Língua Portuguesa, Matemática & Projeto de Vida (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/8ano/matematicaportugues8anovol2.pdf', category: 'Fundamental' },
+  { id: '8-others-v1', year: '8º Ano', subjects: 'Ciências, História, Geografia, Inglês & Projeto de Vida (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-8ano-ciencias-historia-geografia-lingua-inglesa-projeto-de-vida.pdf', category: 'Fundamental' },
+  { id: '8-others-v2', year: '8º Ano', subjects: 'Ciências, História, Geografia & Inglês (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/8ano/histciengeoing8anovol2.pdf', category: 'Fundamental' },
+  
   // 9º Ano
-  { id: '9-lp-mat', year: '9º Ano', subjects: 'Língua Portuguesa & Matemática', url: 'https://r2.cupiditys.lol/v1-9ano-lingua-portuguesa-matematica.pdf', category: 'Fundamental' },
-  { id: '9-others', year: '9º Ano', subjects: 'Ciências, História, Geografia, Inglês & Projeto de Vida', url: 'https://r2.cupiditys.lol/v1-9ano-ciencias-historia-geografia-lingua-inglesa-projeto-de-vida.pdf', category: 'Fundamental' },
+  { id: '9-lp-mat-v1', year: '9º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-9ano-lingua-portuguesa-matematica.pdf', category: 'Fundamental' },
+  { id: '9-lp-mat-v2', year: '9º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/9ano/matematicaportugues9anovol2.pdf', category: 'Fundamental' },
+  { id: '9-others-v1', year: '9º Ano', subjects: 'Ciências, História, Geografia, Inglês & Projeto de Vida (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-9ano-ciencias-historia-geografia-lingua-inglesa-projeto-de-vida.pdf', category: 'Fundamental' },
+  { id: '9-others-v2', year: '9º Ano', subjects: 'Ciências, História, Geografia, Inglês & Projeto de Vida (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/9ano/histciengeoinglprojeto9anovol2.pdf', category: 'Fundamental' },
+  
   // 1º Ano
-  { id: '1-his-geo-ing', year: '1º Ano', subjects: 'História, Geografia & Inglês', url: 'https://r2.cupiditys.lol/v1-1ano-historia-geografia-lingua-inglesa.pdf', category: 'Médio' },
-  { id: '1-bio-fis-qui', year: '1º Ano', subjects: 'Biologia, Física & Química', url: 'https://r2.cupiditys.lol/v1-1ano-biologia-fisica-quimica.pdf', category: 'Médio' },
-  { id: '1-lp-mat', year: '1º Ano', subjects: 'Língua Portuguesa & Matemática', url: 'https://r2.cupiditys.lol/v1-1ano-lingua-portuguesa-matematica.pdf', category: 'Médio' },
+  { id: '1-his-geo-ing-v1', year: '1º Ano', subjects: 'História, Geografia & Inglês (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-1ano-historia-geografia-lingua-inglesa.pdf', category: 'Médio' },
+  { id: '1-his-geo-ing-v2', year: '1º Ano', subjects: 'História, Geografia & Inglês (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/1ano/histgeoingl1anovol2.pdf', category: 'Médio' },
+  { id: '1-bio-fis-qui-v1', year: '1º Ano', subjects: 'Biologia, Física & Química (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-1ano-biologia-fisica-quimica.pdf', category: 'Médio' },
+  { id: '1-bio-fis-qui-v2', year: '1º Ano', subjects: 'Biologia, Física & Química (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/1ano/fisbioloquim1ano2vol.pdf', category: 'Médio' },
+  { id: '1-lp-mat-v1', year: '1º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-1ano-lingua-portuguesa-matematica.pdf', category: 'Médio' },
+  { id: '1-lp-mat-v2', year: '1º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/1ano/matematica1anovol2.pdf', category: 'Médio' },
+
   // 2º Ano
-  { id: '2-bio-fis-qui', year: '2º Ano', subjects: 'Biologia, Física & Química', url: 'https://r2.cupiditys.lol/v1-2ano-biologia-fisica-quimica.pdf', category: 'Médio' },
-  { id: '2-lp-mat', year: '2º Ano', subjects: 'Língua Portuguesa & Matemática', url: 'https://r2.cupiditys.lol/v1-2ano-lingua-portuguesa-matematica.pdf', category: 'Médio' },
-  { id: '2-his-geo-ing', year: '2º Ano', subjects: 'História, Geografia & Inglês', url: 'https://r2.cupiditys.lol/v1-2ano-historia-geografia-lingua-inglesa.pdf', category: 'Médio' },
+  { id: '2-bio-fis-qui-v1', year: '2º Ano', subjects: 'Biologia, Física & Química (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-2ano-biologia-fisica-quimica.pdf', category: 'Médio' },
+  { id: '2-bio-fis-qui-v2', year: '2º Ano', subjects: 'Biologia, Física & Química (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/2ano/fisbioquim2anovol2.pdf', category: 'Médio' },
+  { id: '2-lp-mat-v1', year: '2º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-2ano-lingua-portuguesa-matematica.pdf', category: 'Médio' },
+  { id: '2-lp-mat-v2', year: '2º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/2ano/matematicaportugues2anovol2.pdf', category: 'Médio' },
+  { id: '2-his-geo-ing-v1', year: '2º Ano', subjects: 'História, Geografia & Inglês (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-2ano-historia-geografia-lingua-inglesa.pdf', category: 'Médio' },
+  { id: '2-his-geo-ing-v2', year: '2º Ano', subjects: 'História, Geografia & Inglês (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/2ano/histgeoing2anovol2.pdf', category: 'Médio' },
+
   // 3º Ano
-  { id: '3-lp-mat', year: '3º Ano', subjects: 'Língua Portuguesa & Matemática', url: 'https://r2.cupiditys.lol/v1-3ano-lingua-portuguesa-matematica.pdf', category: 'Médio' },
-  { id: '3-his-geo-ing', year: '3º Ano', subjects: 'História, Geografia & Inglês', url: 'https://r2.cupiditys.lol/v1-3ano-historia-geografia-lingua-inglesa.pdf', category: 'Médio' },
+  { id: '3-lp-mat-v1', year: '3º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-3ano-lingua-portuguesa-matematica.pdf', category: 'Médio' },
+  { id: '3-lp-mat-v2', year: '3º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/3ano/matematicaportugues3anovol2.pdf', category: 'Médio' },
+  { id: '3-his-geo-ing-v1', year: '3º Ano', subjects: 'História, Geografia & Inglês (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-3ano-historia-geografia-lingua-inglesa.pdf', category: 'Médio' },
+  { id: '3-his-geo-ing-v2', year: '3º Ano', subjects: 'História, Física & Inglês (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/3ano/histfisicaingl3anovol2.pdf', category: 'Médio' },
 ];
 
 export default function App() {
