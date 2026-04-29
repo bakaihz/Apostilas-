@@ -59,11 +59,11 @@ const APOSTILAS: Apostila[] = [
 
   // 2º Ano
   { id: '2-bio-fis-qui-v1', year: '2º Ano', subjects: 'Biologia, Física & Química (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-2ano-biologia-fisica-quimica.pdf', category: 'Médio' },
-  { id: '2-bio-fis-qui-v2', year: '2º Ano', subjects: 'Biologia, Física & Química (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/2ano/fisbioquim2anovol2.pdf', category: 'Médio' },
+  { id: '2-bio-fis-qui-v2', year: '2º Ano', subjects: 'Biologia, Física & Química (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/2ano/1607135%20(1).pdf', category: 'Médio' },
   { id: '2-lp-mat-v1', year: '2º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-2ano-lingua-portuguesa-matematica.pdf', category: 'Médio' },
-  { id: '2-lp-mat-v2', year: '2º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/2ano/matematicaportugues2anovol2.pdf', category: 'Médio' },
+  { id: '2-lp-mat-v2', year: '2º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/2ano/1607135%20(1).pdf', category: 'Médio' },
   { id: '2-his-geo-ing-v1', year: '2º Ano', subjects: 'História, Geografia & Inglês (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-2ano-historia-geografia-lingua-inglesa.pdf', category: 'Médio' },
-  { id: '2-his-geo-ing-v2', year: '2º Ano', subjects: 'História, Geografia & Inglês (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/2ano/histgeoing2anovol2.pdf', category: 'Médio' },
+  { id: '2-his-geo-ing-v2', year: '2º Ano', subjects: 'História, Geografia & Inglês (Vol. 2)', url: 'https://pub-761ea6e47fa74db3a9b6ffc7656d8e73.r2.dev/OpenFuture/volume2/2ano/1607135%20(1).pdf', category: 'Médio' },
 
   // 3º Ano
   { id: '3-lp-mat-v1', year: '3º Ano', subjects: 'Língua Portuguesa & Matemática (Vol. 1)', url: 'https://r2.cupiditys.lol/v1-3ano-lingua-portuguesa-matematica.pdf', category: 'Médio' },
